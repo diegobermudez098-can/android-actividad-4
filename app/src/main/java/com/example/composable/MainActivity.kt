@@ -12,6 +12,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.composable.ui.screen.LoginScreen
 import com.example.composable.ui.theme.ComposableTheme
+import com.example.composable.ui.screen.RegistroScreen
+import com.example.composable.ui.screen.RecuperarScreen
+import com.example.composable.ui.theme.ComposableTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

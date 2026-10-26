@@ -1,4 +1,4 @@
-package com.example.composable.ui.screen
+    package com.example.composable.ui.screen
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -11,10 +11,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.composable.ui.theme.ComposableTheme
 
-@Composable
+    @Composable
 fun LoginScreen() {
     var email by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
@@ -179,3 +181,10 @@ fun LoginScreen() {
         }
     }
 }
+    @Preview(showBackground = true)
+    @Composable
+    private fun PreviewRecuperar() {
+        ComposableTheme {
+            RecuperarScreen()
+        }
+    }
